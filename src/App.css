@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+.backGroundColor{
+    background: linear-gradient(115.91deg, #0B2368 28.13%, #0094EB 145.53%);
+}
+.hero-bg{
+    background-image: url('./assests/new\ 1.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    line-height: 78px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width: 700px) {
+    .whyus{
+        flex-direction: column;
+    }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.whyus-text{
+    color: #0B2368;
+    ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon-text{
+    color: rgba(255, 255, 255, 0.8);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.testimonalBg{
+    background-image: url('./assests/testimonalBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
